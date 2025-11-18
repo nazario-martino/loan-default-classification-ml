@@ -8,6 +8,10 @@ models/
 # Notebooks
 .ipynb_checkpoints/
 
+# Virtual Environment
+.venv/
+venv/
+
 # Python
 __pycache__/
 *.pyc
@@ -15,3 +19,6 @@ __pycache__/
 
 # OS
 .DS_Store
+
+# Notes files
+NOTES.md

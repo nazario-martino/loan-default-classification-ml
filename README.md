@@ -51,6 +51,27 @@ Two families of models are implemented:
 
 The evaluation framework emphasizes early identification of high-risk applicants while preserving acceptable approval rates.
 
+## Data Source
+
+This project uses the *Home Credit Default Risk* dataset, originally released as part of a Kaggle competition.
+
+Dataset page:  
+https://www.kaggle.com/competitions/home-credit-default-risk/data
+
+To access the dataset you must:
+
+1. Create a Kaggle account  
+2. Accept the competition rules  
+3. Download the files manually or via the Kaggle API  
+4. Place all CSV files inside the following directory:
+
+```
+data/raw/
+```
+
+The dataset is not included in this repository to comply with licensing and distribution restrictions.  
+Only the directory structure is provided to enable correct integration with the project’s data loading pipeline.
+
 ## How to Run
 
 ### 1. Install dependencies
